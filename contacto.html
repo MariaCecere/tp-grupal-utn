@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FitGym</title>
+  <!--css bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--css custom-->
+  <link rel="stylesheet" href="./css/style.css">
+  <!--boxicons-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!--tipografia googlefonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">FytGym</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active -black" aria-current="page" href="#biografia">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#formacion">Disciplinas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-black" href="contacto.html" class="current">Contacto</a>             
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="contacto" class="contacto mb-4">
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="text-center mb-4">Contacto</h1>
+          <hr class="bottom-line"></hr>
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="nombre"
+                placeholder="Tu nombre"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label"
+                >Correo Electrónico</label
+              >
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                id="email"
+                placeholder="nombre@ejemplo.com"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Asunto:</label>
+              <input
+                type="text"
+                name="subject"
+                class="form-control"
+                id="nombre"
+                placeholder="Asunto"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono:</label>
+              <input
+                type="tel"
+                name="phone"
+                class="form-control"
+                id="telefono"
+                placeholder="Tu teléfono"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje:</label>
+              <textarea
+                class="form-control"
+                name="message"
+                id="mensaje"
+                rows="4"
+                placeholder="Escribe tu mensaje..."
+                required
+              ></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-info">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <ul class="menu">
+      <li class="icono-img">
+        <a href="#" class="icono">
+          <i class="bx bxl-instagram"></i>
+        </a>
+      </li>
+      <li class="icono-img">
+        <a href="#" class="icono">
+          <i class="bx bxl-facebook-square"></i>
+        </a>
+      </li>
+      <li class="icono-img">
+        <a href="#" class="icono">
+          <i class="bx bxl-whatsapp"></i>
+        </a>
+      </li>
+      <li class="icono-img">
+        <a href="#" class="icono">
+          <i class="bx bxs-envelope"></i>
+        </a>
+      </li>
+    </ul>
+    <p class="texto-footer">info footer</p>
+  </footer>
